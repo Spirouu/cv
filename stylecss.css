@@ -1,0 +1,165 @@
+/** https://colorhunt.co/palette/93b5c6c9ccd5e4d8dcffe3e3 **/
+
+@font-face {
+  font-family: "chunkfiveregular";
+  src: url("../font/chunkfive-regular-webfont.woff2") format("woff2"),
+    url("../font/chunkfive-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: linear-gradient(#93b5c6, #ffe3e3);
+  font-family: "comic sans ms", chunkfiveregular, Arial, Helvetica, sans-serif;
+}
+
+#bloc_page {
+  width: 55%;
+  min-width: 55em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+  margin-bottom: 10em;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+header {
+  height: 12em;
+  background: linear-gradient(#ff8aae, #ffb2a6);
+  margin-left: auto;
+  margin-right: auto;
+  font-family: chunkfiveregular, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.nom_prenom {
+  padding-left: 3em;
+  padding-top: 3em;
+}
+
+#exercices {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.element1 {
+  width: 10em;
+}
+
+.element {
+  width: 12em;
+  height: 9em;
+}
+
+.logo {
+  width: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo1 {
+  width: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.TT {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  color: white;
+}
+
+.img_identi {
+  margin-top: -5em;
+  margin-left: 3em;
+  width: 167px;
+  height: 215px;
+  margin-right: 1em;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;}
+
+.contact {
+  height: 9em;
+  background-color: #93B5C6;
+}
+
+.gauche {
+    margin-left: 2em;
+    max-width: 28em;
+    margin-bottom: 4em;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+@media (max-width: 107em) {
+  .gauche{
+    max-width: 23em;
+    font-size: 13px;
+  }
+  .forma, .expe {
+    font-size: 13px;
+  }
+}
+
+#Contenue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    color: #5aa1c5;
+  }
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+.autre {
+    display: flex;
+    max-width: 38em;
+    margin-right: 2em;
+    margin-bottom: 4em;
+    flex-direction: column;
+}
+
+
+.forma {
+    padding: 1em;
+    background-color:linear-gradient(#8fb6ca, #cee0dd);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-bottom: 3em;
+
+}
+
+.expe {
+    padding: 1em;
+    background-color:linear-gradient(#93B5C6, #D3DEDC) ;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+ul{
+  list-style-type: none;
+}
